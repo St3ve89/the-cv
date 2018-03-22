@@ -1,0 +1,43 @@
+-
+    var header = '#about-me'
+    var imagePath = "asset/image/cv-image-template.jpg"
+    var myFullName = 'Istvan Acs'
+    var myJobTitle = 'Web Developer'
+    var slogan = 'I make the front-end word better every day.'
+    var achievement={
+        title:'achievement',
+        content:'I am a self-taught,highly creative, forward-thinking professional with a multi-faced background in Front-end development and responsive design/programming for both static and dynamically loaded content with 1+ years of experience in web development.'
+    }
+    var coolStuff = {
+        title: 'grab cool stuff',
+        buttonList: [
+            {
+                url: 'https://github.com/St3ve89/the-cv',
+                icon: 'github',
+                label: 'Click to visit the GitHub project source'
+            },
+            {
+                url: 'asset/CV/Istvan-Acs-cv.docx',
+                icon: 'file-word',
+                label: 'Click to download the "one page" Microsoft Word version'
+            }
+        ]
+    }
+#about-me
+.about-me
+    .about-me__header=header
+    .about-me__avatar-wrapper
+        img.about-me__avatar(src=imagePath)
+    .about-me__full-name=myFullName
+    .about-me__full-title=myJobTitle
+    .about-me__slogan=slogan
+
+    .about-me__title=achievement.title
+    .about-me__content=achievement.content
+
+    .about-me__title=coolStuff.title
+    .about-me__link-list
+        each button in coolStuff.buttonList
+            a.about-me__link(href=button.url, target="_blank")
+                span.about-me__link-description=button.label
+                span(class=`my-resume__icon--${button.icon}`)
