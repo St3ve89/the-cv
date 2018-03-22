@@ -47,12 +47,12 @@
         &:hover{
             .my-resume__icon--facebook2{
                 color: $color-facebook;
-                text-shadow: 0 0 15px $color-facebook;
+                text-shadow: 0 0 5px $color-facebook;
                 transition: all 0.5s ease;
             }
             .my-resume__icon--youtube{
                 color: $color-youtube;
-                text-shadow: 0 0 15px $color-youtube;
+                text-shadow: 0 0 5px $color-youtube;
                 transition: all 0.5s ease;
             }
             .my-resume__icon--github{
@@ -67,7 +67,7 @@
             }
             .my-resume__icon--linkedin{
                 color: $color-linkedin;
-                text-shadow: 0 0 15px $color-linkedin;
+                text-shadow: 0 0 5px $color-linkedin;
                 transition: all 0.5s ease;
             }
             .my-resume__icon--stackoverflow{
