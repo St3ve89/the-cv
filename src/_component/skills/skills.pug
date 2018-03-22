@@ -1,0 +1,42 @@
+-
+    var header = '#skills';
+    var whatCanIDoList = [
+        {
+            title: 'Front End',
+            skillList: [
+                'HTML5',
+                'CSS3',
+                'SASS'
+            ]
+        },
+        {
+            title: 'Back End',
+            skillList: [
+                'Git',
+                'JSON',
+                'NodeJs'
+            ]
+        },
+        {
+            title: 'Other',
+            skillList: [
+                'Windows',
+                'Linux',
+                'Android',
+                'iOS',
+                'Word',
+                'Excel',
+                'PowerPoint',
+                'PhotoShop'
+            ]
+        }
+    ];
+
+#what-can-i-do
+.what-can-i-do
+    .what-can-i-do__header=header
+    each whatCanIDo in whatCanIDoList
+        .what-can-i-do__title=whatCanIDo.title
+        .what-can-i-do__list
+            each skill in whatCanIDo.skillList
+                .what-can-i-do__skill=skill
