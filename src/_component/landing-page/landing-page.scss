@@ -32,6 +32,28 @@
     font-size: 2rem;
     cursor: pointer;
 }
+.landing-page__label{
+        &:hover{
+            .my-resume__icon--facebook2{
+                color: $color-facebook
+            }
+            .my-resume__icon--youtube{
+                color: $color-youtube
+            }
+            .my-resume__icon--github{
+                color: $color-black
+            }
+            .my-resume__icon--twitter{
+                color: $color-twitter
+            }
+            .my-resume__icon--linkedin{
+                color: $color-linkedin
+            }
+            .my-resume__icon--stackoverflow{
+                color: $color-stackoverflow
+            }
+        }
+}
 
 .landing-page__box-radio:checked+.landing-page__box-message {
     display: inherit;
