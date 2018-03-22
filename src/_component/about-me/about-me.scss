@@ -1,6 +1,8 @@
 .about-me {
-    background-image: radial-gradient(ellipse,#fb9e91,#e97568);
-
+    // background-image: radial-gradient(ellipse,#fb9e91,#e97568);
+    // background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    // background-image: radial-gradient(#355c7d, #6c5b7b);
+    background-image: linear-gradient(to right, #403b4a, #e7e9bb);
 }
 
 .about-me__header {
@@ -11,7 +13,7 @@
 .about-me__avatar {
     border-radius: 50%;
     width: 100%;
-    border: 0.5rem solid $color-terracotta;
+    border: 0.5rem solid #e7e9bb;
 }
 
 .about-me__avatar-wrapper {
