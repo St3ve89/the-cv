@@ -1,5 +1,6 @@
 -
-    var myFullName = 'Istvan Acs'
+    var myFirstName = 'Istvan'
+    var mySirName = 'Acs'
     var myJobTitle = 'Web Developer'
      var socialList = [
         {icon: 'facebook2', url: 'https://www.facebook.com/istvan.acs.524'},
@@ -12,7 +13,8 @@
 #landing-page
 .landing-page
     .landing-page__wrapper
-        h1.landing-page__name= myFullName
+        h1.landing-page__first-name= myFirstName
+        h1.landing-page__sir-name= mySirName
         h2.landing-page__title= myJobTitle
         ul.landing-page__social
             each social, key in socialList

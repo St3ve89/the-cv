@@ -3,16 +3,27 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: radial-gradient(#48c6ef, #6f86d6);
+    background-image: radial-gradient(#859398, #283048);
 }
 
 .landing-page__wrapper {
     text-align: center;
 }
 
-.landing-page__name {
+.landing-page__first-name,
+.landing-page__sir-name
+ {
+    padding: 0.2rem 0.4rem;
     font-size: 5rem;
     text-transform: uppercase;
+    float: left;
+
+}
+.landing-page__first-name{
+    color: $color-gray-chateau;
+}
+.landing-page__sir-name{
+    color: $color-galliano;
 }
 
 .landing-page__title {
