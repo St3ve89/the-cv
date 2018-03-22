@@ -51,10 +51,11 @@
 
 .about-me__slogan,
 .about-me__content {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
+    line-height: 1.7;
     text-align: justify;
-    padding: 1rem;
-    text-indent: 3rem;
+    padding: 0.7rem 2rem;
+    text-indent: 2rem;
 }
 
 .about-me__link-list {
@@ -64,7 +65,7 @@
 
 .about-me__link {
     display: inline-block;
-    width: 80%;
+    width: 60%;
     font-size: 3rem;
     text-decoration: none;
     border: 0.1rem solid $color-gumbo;
@@ -75,10 +76,11 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 1rem;
+    padding: 0.5rem;
+    box-shadow: rgba(0,0,0,0.5) 0 10px 20px -8px;
 }
 
 .about-me__link-description {
-    font-size: 1.5rem;
-    line-height: 1.5;
+    font-size: 1rem;
+    line-height: 1.2;
 }
