@@ -15,14 +15,15 @@
 
 .landscape__button {
     display: block;
+    box-shadow: rgba(0,0,0,.5) 0 10px 20px -8px;
     background-color: $color-fiord;
     color: $color-white;
     position: fixed;
     top: 1rem;
     right: 1rem;
-    font-size: 2rem;
-    padding: 1rem;
-    border-radius: 0.5rem;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.4rem;
     text-decoration: none;
     border: 0.1rem solid $color-white;
 }
