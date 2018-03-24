@@ -1,40 +1,36 @@
 -
     var menuList = [
         {
-            label: 'Home',
-            icon: 'home',
-            link: '#landing-page'
+        label: 'home',
+        icon: 'home',
+        link: '#landing-page',
+        },        {
+        label: 'about-me',
+        icon: 'smile',
+        link: '#about-me',
         },
         {
-            label: 'About Me',
-            icon: 'smile',
-            link: '#about-me'
+        label: 'awards',
+        icon: 'trophy',
+        link: '#award',
         },
         {
-            label: 'Awards',
-            icon: 'trophy',
-            link: '#award'
+        label: 'skills',
+        icon: 'hammer',
+        link: '#what-can-i-do',
         },
         {
-            label: 'Skills',
-            icon: 'hammer',
-            link: '#what-can-i-do'
-        },
-        {
-            label: 'Experience',
-            icon: 'airplane',
-            link: '#experience'
+        label: 'experience',
+        icon: 'airplane',
+        link: '#experience',
         }
     ]
 #menu
-
-    input.menu__input(type="checkbox", name="other-name", id="menu__slide")
-    label.menu__go-to(for="menu__slide")
-        
-        span.my-resume__icon--menu
-    .menu
-        .menu__list
-            each menu in menuList
-                a.menu__link(href=menu.link)
-                    span(class=`my-resume__icon--${menu.icon}`)
-                    span.menu__label=menu.label
+a.menu__go-to(href='#menu')
+    span.my-resume__icon--menu3
+.menu
+    .menu__list
+        each menu in menuList
+            a.menu__link(href=menu.link)
+                span(class=`my-resume__icon--${menu.icon}`)
+                span.menu__label=menu.label
