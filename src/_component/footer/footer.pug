@@ -1,0 +1,28 @@
+-
+    var header = '#footer';
+        var socialList = [
+    {
+      "icon": "facebook2",
+      "url": 'https://www.facebook.com/istvan.acs.524'
+    },
+    {
+      "icon": "github",
+      "url": 'https://github.com/St3ve89'
+    },
+    {
+      "icon": "twitter",
+      "url": 'https://twitter.com/St3ven89'
+    },
+    {
+      "icon": "linkedin",
+      "url": 'https://www.linkedin.com/in/istvan-acs-b24479160/'
+    }
+    ];
+#footer
+        .footer__wrapper
+            .footer__contact 
+                a.footer__email(href="mailto:istvan.acs89@gmail.com", target="_blank") Get in touch
+                .footer__icons
+                    each social in socialList
+                        a.footer__links(href=social.url, target="_blank")
+                            span(class=`my-resume__icon--${social.icon}`)
