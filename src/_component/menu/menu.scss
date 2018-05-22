@@ -1,6 +1,7 @@
 .menu {
     padding: 2rem;
     background-color: $color-white;
+    // min-height: 100%;
     position: relative;
 }
 
@@ -29,8 +30,8 @@
     background-color: $color-fiord;
     color: $color-white;
     position: fixed;
-    top: 0;
-    left: 0;
+    top: 1rem;
+    left: 1rem;
     font-size: 2rem;
     padding: 0.8rem;
     border-radius: 0.5rem;
